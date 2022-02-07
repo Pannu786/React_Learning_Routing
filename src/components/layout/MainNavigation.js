@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const MainNavigation = () => {
   return (
-    <headers className={styles.header}>
+    <header className={styles.header}>
       <div className={styles.logo}>Good Quotes</div>
       <nav className={styles.nav}>
         <ul>
@@ -19,7 +19,7 @@ const MainNavigation = () => {
           </li>
         </ul>
       </nav>
-    </headers>
+    </header>
   );
 };
 
